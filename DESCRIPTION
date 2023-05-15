@@ -1,12 +1,10 @@
 Package: aquadiv
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Analayse aquaculture diversity
+Version: 0.1
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Manuel", "Mendoza", , "manuelmendoza@uvigo.gal", role = c("aut", "cre"))
+Description: Analyse the diversity of aquaculture production based on FAO stats
+License: use_mit_license()
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
