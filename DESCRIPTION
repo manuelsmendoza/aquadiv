@@ -1,10 +1,18 @@
 Package: aquadiv
 Title: Analayse aquaculture diversity
-Version: 0.1
+Version: 0.23
 Authors@R: 
     person("Manuel", "Mendoza", , "manuelmendoza@uvigo.gal", role = c("aut", "cre"))
-Description: Analyse the diversity of aquaculture production based on FAO stats
-License: use_mit_license()
+Description: Analyse the diversity of aquaculture production based on the data provided by FAOSTAT
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Imports:
+  httr,
+  tibble,
+  readr,
+  magrittr,
+  dplyr,
+  stringr,
+  taxonomizr
